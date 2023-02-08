@@ -44,13 +44,13 @@ export default function Description() {
               One of the deadliest earthquakes in history
             </h3>
             <p className="my-6 dark:text-gray-500 text-base">
-              More than 14 million, which is more than Belgium's population,
-              were affected with more than 9,000 people have been reported dead,
-              with tens of thousands injured and hundreds of structures
-              destroyed. By offering your help and support, you can make a
-              tangible difference in the lives of those who have been affected
-              by this tragedy and bring hope and comfort to those who are in
-              need.
+              More than 14 million, which is more than Belgium&lsquo;s
+              population, were affected with more than 9,000 people have been
+              reported dead, with tens of thousands injured and hundreds of
+              structures destroyed. By offering your help and support, you can
+              make a tangible difference in the lives of those who have been
+              affected by this tragedy and bring hope and comfort to those who
+              are in need.
             </p>
             <button
               type="button"
