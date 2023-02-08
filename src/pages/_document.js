@@ -6,7 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <a
-          href="https://earthquakewidget.vercel.app/widget.html"
+          href="https://www.supportturkey.org/"
           style={{
             textAlign: "center",
             margin: "0",

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Widget() {
   const widgetCode = `<a
-    href="https://earthquakewidget.vercel.app/widget.html"
+    href="https://www.supportturkey.org/"
     style="
       text-align: center;
       margin: 0;
@@ -25,7 +25,7 @@ export default function Widget() {
   >`;
 
   const widgetCodeToReact = `<a
-  href="https://earthquakewidget.vercel.app/widget.html"
+  href="https://www.supportturkey.org/"
   style={{
     textAlign: "center",
     margin: "0",
