@@ -42,35 +42,6 @@ export default function Donate() {
               </p>
             </div>
           </a>
-
-          <a
-            rel="noopener noreferrer"
-            href="https://turkeymozaik.org.uk/donate/"
-            className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
-            target="_blank"
-          >
-            <img
-              role="presentation"
-              className="object-cover w-full rounded h-44 dark:bg-gray-500"
-              src="https://i.ytimg.com/vi/QTwxMr9MGjA/mqdefault.jpg"
-            />
-            <div className="p-6 space-y-2">
-              <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                Turkey Mozaik Foundation
-              </h3>
-              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
-                UK
-              </span>
-              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
-                Worldwide
-              </span>
-              <p>
-                Be a part of the relief effort for earthquake victims in Turkey.
-                Your donation brings comfort. Donate now.
-              </p>
-            </div>
-          </a>
-
           <a
             rel="noopener noreferrer"
             href="https://bagis.ahbap.org/bagis?currency=USD"
@@ -96,6 +67,33 @@ export default function Donate() {
                 Help earthquake victims in Turkey. Your donation provides aid
                 like shelter, food and medical supplies. Make a difference in
                 someone&lsquo;s life. Donate now. Thank you.
+              </p>
+            </div>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://turkeymozaik.org.uk/donate/"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            target="_blank"
+          >
+            <img
+              role="presentation"
+              className="object-cover w-full rounded h-44 dark:bg-gray-500"
+              src="https://i.ytimg.com/vi/QTwxMr9MGjA/mqdefault.jpg"
+            />
+            <div className="p-6 space-y-2">
+              <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                TURKEY MOZAIK FOUNDATION
+              </h3>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                UK
+              </span>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                Worldwide
+              </span>
+              <p>
+                Be a part of the relief effort for earthquake victims in Turkey.
+                Your donation brings comfort. Donate now.
               </p>
             </div>
           </a>
