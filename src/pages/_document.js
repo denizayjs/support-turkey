@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+
       <body>
         <a
           href="https://www.supportturkey.org/"
