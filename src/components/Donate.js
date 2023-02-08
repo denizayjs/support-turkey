@@ -14,228 +14,113 @@ export default function Donate() {
             someone&lsquo;s life - donate now.
           </p>
         </div>
-        <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-          <div>
-            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-500">
-              Ad vix debet docendi
-            </h3>
-            <p className="mt-3 text-lg dark:text-gray-400">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
-              etiam regione ut, persius eripuit quo id. Sit te euismod
-              tacimates.
-            </p>
-            <div className="mt-12 space-y-12">
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                    Per ei quaeque sensibus
-                  </h4>
-                  <p className="mt-2 dark:text-gray-400">
-                    Ex usu illum iudico molestie. Pro ne agam facete
-                    mediocritatem, ridens labore facete mea ei. Pro id apeirian
-                    dignissim.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                    Cu imperdiet posidonium sed
-                  </h4>
-                  <p className="mt-2 dark:text-gray-400">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec
-                    et, elit tibique cu nec. Nec ex maluisset inciderint, ex
-                    quis.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                    Nulla omittam sadipscing mel ne
-                  </h4>
-                  <p className="mt-2 dark:text-gray-400">
-                    At sed possim oporteat probatus, justo graece ne nec, minim
-                    commodo legimus ut vix. Ut eos iudico quando soleat, nam
-                    modus.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" className="mt-10 lg:mt-0">
+        <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <a
+            rel="noopener noreferrer"
+            href="https://donate.tpfund.org/campaign/tpf-turkiye-earthquake/c465112"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            target="_blank"
+          >
             <img
-              src="https://source.unsplash.com/random/360x480"
-              alt=""
-              className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+              role="presentation"
+              className="object-fix w-full rounded h-44 dark:bg-gray-500"
+              src="https://assets.classy.org/7058786/37e79ac2-a706-11ed-b3f2-0a58a9feac02.png"
             />
-          </div>
-        </div>
-        <div>
-          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-            <div className="lg:col-start-2">
-              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">
-                Eam nibh gloriatur ex
+            <div className="p-6 space-y-2">
+              <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                TURKISH PHILANTHROPY FUNDS
               </h3>
-              <p className="mt-3 text-lg dark:text-gray-400">
-                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te
-                latine theophrastus. Ea his tale nibh dissentias, mei exerci
-                tamquam euripidis cu.
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                US
+              </span>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                Worldwide
+              </span>
+              <p>
+                Make a life-saving impact for earthquake victims in Turkey. Your
+                donation provides aid. Donate today.
               </p>
-              <div className="mt-12 space-y-12">
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        className="w-7 h-7"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                      Cibo augue offendit has ad
-                    </h4>
-                    <p className="mt-2 dark:text-gray-400">
-                      An per velit appellantur, ut utinam minimum nominavi sit,
-                      odio nostro habemus ne nec. Ne sonet regione contentiones
-                      est.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        className="w-7 h-7"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                      At eum ferri luptatum lobortis
-                    </h4>
-                    <p className="mt-2 dark:text-gray-400">
-                      Te per quidam maiorum ocurreret, etiam delicatissimi usu
-                      ad. Ne has quod periculis. Te sit primis iisque
-                      efficiantur.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-red-600 text-white">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        className="w-7 h-7"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                      Dicunt verterem evertitur eu sea
-                    </h4>
-                    <p className="mt-2 dark:text-gray-400">
-                      Audire principes rationibus eam an, autem nominavi
-                      luptatum per te. Sumo fabulas vim eu, sonet saperet
-                      eleifend ut vix.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-              <img
-                src="https://source.unsplash.com/random/361x481"
-                alt=""
-                className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
-              />
+          </a>
+
+          <a
+            rel="noopener noreferrer"
+            href="https://turkeymozaik.org.uk/donate/"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            target="_blank"
+          >
+            <img
+              role="presentation"
+              className="object-cover w-full rounded h-44 dark:bg-gray-500"
+              src="https://i.ytimg.com/vi/QTwxMr9MGjA/mqdefault.jpg"
+            />
+            <div className="p-6 space-y-2">
+              <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                Turkey Mozaik Foundation
+              </h3>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                UK
+              </span>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                Worldwide
+              </span>
+              <p>
+                Help earthquake victims in Turkey. Your donation provides aid
+                like shelter, food and medical supplies. Make a difference in
+                someone&lsquo;s life. Donate now. Thank you.
+              </p>
             </div>
+          </a>
+
+          <a
+            rel="noopener noreferrer"
+            href="https://bagis.ahbap.org/bagis?currency=USD"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            target="_blank"
+          >
+            <img
+              role="presentation"
+              className="object-cover w-full rounded h-44 dark:bg-gray-500"
+              src="https://cdn.fonzip.com/public/reseau/img/donation/blob-1675804636838.png"
+            />
+            <div className="p-6 space-y-2">
+              <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                AHBAP
+              </h3>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                Turkey
+              </span>
+              <span className="text-xs px-2 py-1 font-bold rounded bg-red-600 text-white mr-1">
+                Worldwide
+              </span>
+              <p>
+                Help earthquake victims in Turkey. Your donation provides aid
+                like shelter, food and medical supplies. Make a difference in
+                someone&lsquo;s life. Donate now. Thank you.
+              </p>
+            </div>
+          </a>
+        </div>
+        <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <div className="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 rounded-lg  ">
+          <h2 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+            AHBAP Crypto Address
+          </h2>
+          <div className="font-bold text-lg my-4">
+            <h3 className="mb-4 text-red-600">BEP20:</h3>
+
+            <p className=""> 0xB67705398fEd380a1CE02e77095fed64f8aCe463</p>
+          </div>
+
+          <div className="font-bold text-lg my-4">
+            <h3 className="mb-4 text-red-600">ERC20:</h3>
+
+            <p className=""> 0xe1935271D1993434A1a59fE08f24891Dc5F398Cd</p>
+          </div>
+          <div className="font-bold text-lg my-4">
+            <h3 className="mb-4 text-red-600">Avalanche:</h3>
+
+            <p className=""> 0x868D27c361682462536DfE361f2e20B3A6f4dDD8</p>
           </div>
         </div>
       </div>
