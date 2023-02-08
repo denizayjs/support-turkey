@@ -4,7 +4,7 @@ export default function Description() {
   return (
     <section className="p-4 lg:p-8 bg-gray-50">
       <div className="container mx-auto space-y-12">
-        <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+        <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row">
           <img
             src="https://www.diken.com.tr/wp-content/uploads/2023/02/20230205-hatay-deprem.jpg"
             alt="help-turkey"
@@ -24,7 +24,7 @@ export default function Description() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
+        <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row-reverse">
           <img
             src="https://static.birgun.net/resim/haber-detay-resim/2023/02/07/deprem-sonrasi-kahramanmaras-taki-buyuk-yikim-havadan-goruntulendi-1123403-5.jpg"
             alt="help-turkey-people"
@@ -44,7 +44,7 @@ export default function Description() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+        <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row">
           <img
             src="https://i.cnnturk.com/i/cnnturk/75/0x555/63e0ca2fb57f152bacfa66d2"
             alt="help-turkey-child"

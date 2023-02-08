@@ -18,7 +18,7 @@ export default function Donate() {
           <a
             rel="noopener noreferrer"
             href="https://donate.tpfund.org/campaign/tpf-turkiye-earthquake/c465112"
-            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
           >
             <img
@@ -46,7 +46,7 @@ export default function Donate() {
           <a
             rel="noopener noreferrer"
             href="https://turkeymozaik.org.uk/donate/"
-            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
           >
             <img
@@ -65,9 +65,8 @@ export default function Donate() {
                 Worldwide
               </span>
               <p>
-                Help earthquake victims in Turkey. Your donation provides aid
-                like shelter, food and medical supplies. Make a difference in
-                someone&lsquo;s life. Donate now. Thank you.
+                Be a part of the relief effort for earthquake victims in Turkey.
+                Your donation brings comfort. Donate now.
               </p>
             </div>
           </a>
@@ -75,7 +74,7 @@ export default function Donate() {
           <a
             rel="noopener noreferrer"
             href="https://bagis.ahbap.org/bagis?currency=USD"
-            className="max-w-sm mx-auto hover:shadow-2xl rounded group hover:no-underline focus:no-underline bg-gray-50 border-2"
+            className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
           >
             <img
@@ -102,7 +101,7 @@ export default function Donate() {
           </a>
         </div>
         <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"></hr>
-        <div className="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 rounded-lg  ">
+        <div className="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 rounded-lg break-words ">
           <h2 className="text-2xl font-semibold group-hover:underline group-focus:underline">
             AHBAP Crypto Address
           </h2>

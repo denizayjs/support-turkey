@@ -64,9 +64,9 @@ export default function Widget() {
               website. Simply paste this code within the body tag of your HTML
               to show your support:
             </p>
-            <p className="my-6 text-white border-gray-50 border-2 rounded lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCode}`}</p>
+            <p className="my-6 text-white border-gray-50 border-2 rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCode}`}</p>
             <p className="my-6 dark:text-gray-400">For React.js and Next.js:</p>
-            <p className="my-6 text-white border-gray-50 border-2 rounded lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCodeToReact}`}</p>
+            <p className="my-6 text-white border-gray-50 border-2 rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCodeToReact}`}</p>
           </div>
         </div>
       </div>
