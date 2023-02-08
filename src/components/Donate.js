@@ -11,7 +11,7 @@ export default function Donate() {
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-500">
             Your generosity has the power to transform lives. Donate below and
             help create a brighter future for those in need. Be the light in
-            someone's life - donate now.
+            someone&lsquo;s life - donate now.
           </p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
