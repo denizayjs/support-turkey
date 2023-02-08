@@ -23,8 +23,9 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <Description />
-        <Widget />
+
         <Donate />
+        <Widget />
         <Footer />
       </main>
     </>

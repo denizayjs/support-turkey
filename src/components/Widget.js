@@ -55,18 +55,18 @@ export default function Widget() {
     >
       <div className="container mx-auto space-y-12">
         <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-          <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
+          <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-800">
             <h3 className="text-3xl font-bold">
-              Adding a Widget to Your Website
+              You can also help us by adding widget to your website
             </h3>
             <p className="my-6 dark:text-gray-400">
               Make a difference for Turkey by adding a dynamic widget to your
               website. Simply paste this code within the body tag of your HTML
               to show your support:
             </p>
-            <p className="my-6 text-white border-gray-50 border-2 rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCode}`}</p>
+            <p className="my-6 text-white  rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words dark:bg-gray-900">{`${widgetCode}`}</p>
             <p className="my-6 dark:text-gray-400">For React.js and Next.js:</p>
-            <p className="my-6 text-white border-gray-50 border-2 rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words">{`${widgetCodeToReact}`}</p>
+            <p className="my-6 text-white  rounded-lg lg:py-8 lg:px-16 py-4 px-8 break-words  dark:bg-gray-900">{`${widgetCodeToReact}`}</p>
           </div>
         </div>
       </div>

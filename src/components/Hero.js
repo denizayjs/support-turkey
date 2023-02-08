@@ -8,13 +8,15 @@ export default function Hero() {
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             #SupportTurkey
           </h1>
-          <div className="font-extrabold text-red-700 text-xl sm:block">
-            Together for a Better Turkey
+          <div className="font-extrabold text-red-700 text-xl sm:block pt-6">
+            Turkey needs your urgent help after devastating series of
+            earthquakes struck.
           </div>
 
-          <p className="mt-4 sm:text-xl sm:leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+          <p className="mt-4 sm:text-base sm:leading-relaxed">
+            A massive earthquake that occurred in the early hours of Monday
+            morning near the Syrian border in southeast Turkey claimed the lives
+            of over 9,000 people and injured thousands more.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">

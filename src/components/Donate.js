@@ -99,25 +99,34 @@ export default function Donate() {
           </a>
         </div>
         <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"></hr>
-        <div className="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 rounded-lg break-words ">
+        <div className="p-4 lg:p-8 border-2 rounded-lg break-words text-center shadow-lg">
           <h2 className="text-2xl font-semibold group-hover:underline group-focus:underline">
             AHBAP Crypto Address
           </h2>
           <div className="font-bold text-lg my-4">
             <h3 className="mb-4 text-red-600">BEP20:</h3>
 
-            <p className=""> 0xB67705398fEd380a1CE02e77095fed64f8aCe463</p>
+            <p className="dark:text-gray-500">
+              {" "}
+              0xB67705398fEd380a1CE02e77095fed64f8aCe463
+            </p>
           </div>
 
           <div className="font-bold text-lg my-4">
             <h3 className="mb-4 text-red-600">ERC20:</h3>
 
-            <p className=""> 0xe1935271D1993434A1a59fE08f24891Dc5F398Cd</p>
+            <p className="dark:text-gray-500">
+              {" "}
+              0xe1935271D1993434A1a59fE08f24891Dc5F398Cd
+            </p>
           </div>
           <div className="font-bold text-lg my-4">
             <h3 className="mb-4 text-red-600">Avalanche:</h3>
 
-            <p className=""> 0x868D27c361682462536DfE361f2e20B3A6f4dDD8</p>
+            <p className="dark:text-gray-500">
+              {" "}
+              0x868D27c361682462536DfE361f2e20B3A6f4dDD8
+            </p>
           </div>
         </div>
       </div>
