@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import TagManager from "react-gtm-module";
 import { useEffect } from "react";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }

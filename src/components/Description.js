@@ -8,7 +8,7 @@ export default function Description() {
           <img
             src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey4.png"
             alt="help-turkey"
-            className="h-80  dark:bg-gray-500 aspect-video object-cover"
+            className="h-80  dark:bg-gray-500 aspect-video"
           />
           <div className="flex flex-col justify-center flex-1 p-6 border-2 shadow-gray-400">
             <h3 className="text-3xl font-bold">Why was it so deadly?</h3>
