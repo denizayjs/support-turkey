@@ -6,7 +6,7 @@ export default function Description() {
       <div className="container mx-auto space-y-12">
         <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row">
           <img
-            src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey3.png"
+            src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey4.png"
             alt="help-turkey"
             className="h-80  dark:bg-gray-500 aspect-video object-cover"
           />
