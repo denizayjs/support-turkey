@@ -18,6 +18,7 @@ export default function Widget() {
       right: 0px;
       transform: rotate(-90deg);
       transform-origin: bottom right;
+      z-index: 1001;
     "
     target="_blank"
     rel="noopener noreferrer"
@@ -40,7 +41,8 @@ export default function Widget() {
     top: "calc(50vh - 150px)",
     right: "0px",
     transform: "rotate(-90deg)",
-    transformOrigin: " bottom right",
+    transformOrigin: "bottom right",
+    zIndex: "1001",
   }}
   target="_blank"
   rel="noopener noreferrer"

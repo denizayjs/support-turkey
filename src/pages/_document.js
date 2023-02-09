@@ -23,6 +23,7 @@ export default function Document() {
             right: "0px",
             transform: "rotate(-90deg)",
             transformOrigin: " bottom right",
+            zIndex: "1001",
           }}
           target="_blank"
           rel="noopener noreferrer"
