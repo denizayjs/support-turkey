@@ -6,7 +6,7 @@ export default function Description() {
       <div className="container mx-auto space-y-12">
         <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row">
           <img
-            src="https://pbs.twimg.com/media/FoWv1-SXwAATqyr?format=jpg&name=4096x4096"
+            src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey3.png"
             alt="help-turkey"
             className="h-80  dark:bg-gray-500 aspect-video object-cover"
           />
@@ -35,7 +35,7 @@ export default function Description() {
         </div>
         <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row-reverse">
           <img
-            src="https://pbs.twimg.com/media/FoVsmnJWYAAuBQa?format=jpg&name=4096x4096"
+            src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey2.png"
             alt="help-turkey-people"
             className="h-80 dark:bg-gray-500 aspect-video"
           />
@@ -62,7 +62,7 @@ export default function Description() {
         </div>
         <div className="flex flex-col overflow-hidden rounded-lg shadow-sm lg:flex-row">
           <img
-            src="https://pbs.twimg.com/media/FoV4xOpWIAIMOCZ?format=jpg&name=4096x4096"
+            src="https://before-sunset-assets.nyc3.digitaloceanspaces.com/help-turkey/turkey1.png"
             alt="help-turkey-child"
             className="h-80 dark:bg-gray-500 aspect-video"
           />
