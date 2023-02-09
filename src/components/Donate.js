@@ -20,6 +20,9 @@ export default function Donate() {
             href="https://donate.tpfund.org/campaign/tpf-turkiye-earthquake/c465112"
             className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
+            onClick={() =>
+              window.gtag("event", "TURKISHPHILANTHROPYFUNDS-click")
+            }
           >
             <img
               role="presentation"
@@ -47,6 +50,7 @@ export default function Donate() {
             href="https://bagis.ahbap.org/bagis?currency=USD"
             className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
+            onClick={() => window.gtag("event", "AHBAP-click")}
           >
             <img
               role="presentation"
@@ -75,6 +79,7 @@ export default function Donate() {
             href="https://turkeymozaik.org.uk/donate/"
             className="max-w-sm mx-auto hover:shadow-2xl rounded-lg group hover:no-underline focus:no-underline bg-gray-50 border-2"
             target="_blank"
+            onClick={() => window.gtag("event", "TURKEYMOZAIKFOUNDATION-click")}
           >
             <img
               role="presentation"
